@@ -1,0 +1,19 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: configService
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mdshoyeb424/quiz-config
+          clone-on-start: true
+
+
+
+
+
+
+
